@@ -1,0 +1,13 @@
+id,location,item,why_correct
+T1,Clause 6.3(c) and throughout,"Plurals/possessives: Service Level Credits, Statements of Work, Local Services Agreements, Critical Deliverables, Supplier’s, Customer Group’s",Inflected forms of defined terms.
+T2,"Clauses 2.1, 2.3, 6.1, 10.2, 10.3, 12.1, 13.1; Schedules B, C, E, K",SOW / Statement of Work; ESC; JOC; LSA; KPI; ARC; RRC; Tax / Taxes,Both forms defined together.
+T3,Clause 6.5(a),Critical Service Level Failure / Critical Service Level / Minimum Service Level / Measurement Periods in one sentence,"Nested defined terms, each correct."
+T4,Clause 4.5(a) (and all Part 2C pairs except E1),"“Delay Payment” pointer → Clause 4.5, inline definition there",Pointer and definition agree.
+T5,Clause 30.1,"""other natural disasters""","Ordinary-language phrase, not the defined “Disaster”."
+T6,Schedule J ¶4.2,"""Critical Business Function (as defined in Schedule I) ... Recovery Time Objective (as defined in Schedule I)""",Cross-Schedule use with explicit attribution (contrast E9).
+T7,Clause 8.2(b),"""Minimum Tenure Period (as defined in Schedule F)""","Schedule term used in main body with attribution, permitted by Clause 1.4 (contrast E5)."
+T8,Clause 6.3(a),"Pool Allocation Percentage (also Severity Level, Resource Unit, Baseline Volume, Base Charges, ARC, RRC, KPI, Benchmarker, Standard Contractual Clauses)",Schedule-defined but with a correct Clause 1.1 pointer.
+T9,Clause 1.2(f); “Personal Data” entry,"“include”, “including”, “without limitation”; “personal data”, “personal information”, “nonpublic personal information”","Quoted words, not definitions; statutory quotation."
+T10,Clause headings; Clauses 22.3 and 29.5,"ALL-CAPS disclaimer and jury waiver containing SERVICES, DELIVERABLES, DISPUTE",Conspicuousness requirement; defined terms still correct.
+T11,Clause 28.1; Clause 20; Clauses 5.7/15.2,Termination Assistance Services vs Termination Assistance Period vs Termination Date vs Termination Notice; Supplier Materials vs Supplier Proprietary Software; Customer Facilities vs Supplier Facilities,Distinct defined terms used in their own senses.
+T12,Clause 12.1(c); Schedule C ¶11,"""Benchmark Adjustment (as defined in Clause 14.2)""; ""Innovation Fund (as defined in Clause 12.1(d))""",Inline-only terms used elsewhere with explicit cross-reference (contrast E4).

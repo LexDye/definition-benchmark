@@ -1,0 +1,400 @@
+{
+  "benchmark": "LexDye defined-terms benchmark: 121-page MSA (November 2026)",
+  "version": "1.0",
+  "agreement": "agreement.docx",
+  "scope": "Defined-term errors only. Quotation style, section cross-references, meaning, and commercial points are not scored.",
+  "scored_total": 25,
+  "planted_total": 31,
+  "errors": [
+    {
+      "id": "E1",
+      "scored": false,
+      "category": "cross_reference",
+      "error_type": "Pointer to wrong clause",
+      "location": "Clause 1.1, “Earnback”",
+      "approx_page": 7,
+      "text": "“Earnback” has the meaning given in Clause 6.5.",
+      "note": "Earnback is defined in Clause 6.4(a); Clause 6.5 is Critical Service Level Failures.",
+      "not_scored_reason": "out_of_scope_cross_reference"
+    },
+    {
+      "id": "E2",
+      "scored": false,
+      "category": "quote_style",
+      "error_type": "Straight quotes",
+      "location": "Clause 1.1, Records",
+      "approx_page": 12,
+      "text": "\"Records\" means all books, records, documents, data and information, in any form, relating to this Agreement, the Services and the Charges.",
+      "note": "Only glossary entry with straight quotes; conform to “Records”.",
+      "not_scored_reason": "out_of_scope_quote_style"
+    },
+    {
+      "id": "E3",
+      "scored": true,
+      "category": "defined_not_used",
+      "error_type": "Defined but never used",
+      "location": "Clause 1.1, “Work Product”",
+      "approx_page": 17,
+      "text": "“Work Product” means all reports, analyses, presentations and other written materials prepared by Supplier Personnel in the course of performing the Services.",
+      "note": "Never used; Clause 20 uses Developed Materials. Delete or use."
+    },
+    {
+      "id": "E4",
+      "scored": true,
+      "category": "used_before_defined",
+      "error_type": "Used before its (distant) inline definition",
+      "location": "Clause 5.5(c); defined Clause 12.1(d)",
+      "approx_page": 22,
+      "text": "\"...from the Innovation Fund, and shall report the remaining balance of the Innovation Fund in each Monthly Performance Report.\"",
+      "note": "Defined only in Clause 12.1(d); no glossary pointer and no \"(as defined in Clause 12.1(d))\" at first use."
+    },
+    {
+      "id": "E5",
+      "scored": true,
+      "category": "schedule_term_outside_schedule",
+      "error_type": "Schedule-only term used in main body",
+      "location": "Clause 6.3(b)",
+      "approx_page": 24,
+      "text": "\"...shall not exceed the At-Risk Amount.\"",
+      "note": "At-Risk Amount is defined only for Schedule B; no glossary pointer; Clause 1.4 confines it to Schedule B."
+    },
+    {
+      "id": "E6",
+      "scored": true,
+      "category": "variant_or_misspelling",
+      "error_type": "Variant of defined term",
+      "location": "Clause 6.4(a)",
+      "approx_page": 24,
+      "text": "\"Where Supplier has incurred a Service-Level Credit in respect of a Critical Service Level...\"",
+      "note": "Defined term is “Service Level Credit” (no hyphen)."
+    },
+    {
+      "id": "E7",
+      "scored": true,
+      "category": "variant_or_misspelling",
+      "error_type": "Variant of defined term",
+      "location": "Clause 13.2(c)",
+      "approx_page": 33,
+      "text": "\"Where a payment is made under a Local Service Agreement, ...\"",
+      "note": "Defined term is “Local Services Agreement”."
+    },
+    {
+      "id": "E8",
+      "scored": true,
+      "category": "undefined_term",
+      "error_type": "Capitalized term never defined",
+      "location": "Clause 17.3(c)",
+      "approx_page": 40,
+      "text": "\"...Supplier shall deliver to Customer a Remediation Plan within ten (10) Business Days...\"",
+      "note": "Undefined; the Agreement uses “Corrective Action Plan”."
+    },
+    {
+      "id": "E9",
+      "scored": true,
+      "category": "schedule_term_outside_schedule",
+      "error_type": "Schedule-only term used in main body",
+      "location": "Clause 19.3(b)",
+      "approx_page": 42,
+      "text": "\"...restore each affected Service within the applicable RTO...\"",
+      "note": "RTO is defined only in Schedule I; no pointer or attribution (contrast Schedule J ¶4.2)."
+    },
+    {
+      "id": "E10",
+      "scored": true,
+      "category": "lower_case_use",
+      "error_type": "Lower-case use of defined term",
+      "location": "Clause 22.2(f)",
+      "approx_page": 47,
+      "text": "\"...other than in accordance with the change control procedure;\"",
+      "note": "Should be “Change Control Procedure”."
+    },
+    {
+      "id": "E11",
+      "scored": true,
+      "category": "undefined_term",
+      "error_type": "Capitalized term never defined",
+      "location": "Clause 26.1(d)",
+      "approx_page": 52,
+      "text": "\"any Bank Regulator requires or requests Customer to take action...\"",
+      "note": "Undefined; glossary defines “Regulator”."
+    },
+    {
+      "id": "E12",
+      "scored": true,
+      "category": "duplicate_conflicting",
+      "error_type": "Defined twice, conflicting",
+      "location": "Clause 27.5(a)",
+      "approx_page": 54,
+      "text": "\"For the purposes of this Clause 27.5, a “Change of Control” occurs where any person ... acquires beneficial ownership of thirty percent (30%) or more of the voting securities of Supplier...\"",
+      "note": "Clause 1.1 uses a more-than-50% / substantially-all-assets test."
+    },
+    {
+      "id": "E13",
+      "scored": true,
+      "category": "lower_case_use",
+      "error_type": "Lower-case use of defined term",
+      "location": "Annex A-2 ¶4.2",
+      "approx_page": 64,
+      "text": "\"...Supplier shall meet the service levels applicable to each affected In-Scope Application...\"",
+      "note": "Should be “Service Levels”."
+    },
+    {
+      "id": "E14",
+      "scored": false,
+      "category": "undefined_term",
+      "error_type": "Capitalized term never defined",
+      "location": "Annex A-3 ¶3.4",
+      "approx_page": 66,
+      "text": "\"Supplier shall cooperate with the Service Integrator and with each Managed Third Party...\"",
+      "note": "Dropped from scoring after the key was drafted. \"Service Integrator\" is not defined in the final text, so a reviewer who flags it is correct, but the item counts for no one.",
+      "not_scored_reason": "dropped_after_drafting"
+    },
+    {
+      "id": "E15",
+      "scored": true,
+      "category": "duplicate_conflicting",
+      "error_type": "Defined twice, conflicting",
+      "location": "Schedule B ¶2, “Service Level Credit”",
+      "approx_page": 69,
+      "text": "“Service Level Credit” means ... the Pool Allocation Percentage for the affected Critical Service Level multiplied by the At-Risk Amount, calculated solely by reference to the Monthly Charges for the Service Tower to which the failed Critical Service Level relates.",
+      "note": "Clause 1.1 bases the credit on total Monthly Charges for all Service Towers."
+    },
+    {
+      "id": "E16",
+      "scored": true,
+      "category": "duplicate_identical",
+      "error_type": "Identical duplicate",
+      "location": "Schedule B ¶2, “Minimum Service Level”",
+      "approx_page": 69,
+      "text": "“Minimum Service Level” means, in respect of a Service Level, the minimum level of performance specified for that Service Level in Schedule B, failure to achieve which constitutes a Service Level Failure.",
+      "note": "Word-for-word repeat of Clause 1.1."
+    },
+    {
+      "id": "E17",
+      "scored": true,
+      "category": "duplicate_conflicting",
+      "error_type": "Defined twice, conflicting",
+      "location": "Schedule C ¶2, “Business Day”",
+      "approx_page": 73,
+      "text": "“Business Day” means a day other than a Saturday, a Sunday or a day that is a public holiday in New York, New York or in Bengaluru, India.",
+      "note": "Clause 1.1 uses New York and London bank closing days; affects Schedule C ¶5 and ¶9 dates."
+    },
+    {
+      "id": "E18",
+      "scored": false,
+      "category": "cross_reference",
+      "error_type": "Pointer to wrong clause",
+      "location": "Schedule C ¶2, “Benchmark Adjustment”",
+      "approx_page": 73,
+      "text": "“Benchmark Adjustment” has the meaning given in Clause 14.1.",
+      "note": "Defined inline in Clause 14.2(a); 14.1 defines Benchmark Review.",
+      "not_scored_reason": "out_of_scope_cross_reference"
+    },
+    {
+      "id": "E19",
+      "scored": true,
+      "category": "defined_not_used",
+      "error_type": "Defined but never used",
+      "location": "Schedule D ¶1, “Parallel Run”",
+      "approx_page": 77,
+      "text": "“Parallel Run” means a period during which the incumbent arrangements of the Customer Group and the arrangements of Supplier are operated simultaneously...",
+      "note": "Never used."
+    },
+    {
+      "id": "E20",
+      "scored": true,
+      "category": "lower_case_use",
+      "error_type": "Lower-case use of defined term",
+      "location": "Schedule D ¶5.3",
+      "approx_page": 79,
+      "text": "\"If any critical deliverable is not accepted by its Milestone Date, ...\"",
+      "note": "Should be “Critical Deliverable”."
+    },
+    {
+      "id": "E21",
+      "scored": true,
+      "category": "defined_not_used",
+      "error_type": "Defined but never used",
+      "location": "Schedule E ¶1, “Tower Review Board”",
+      "approx_page": 81,
+      "text": "“Tower Review Board” means the board of senior representatives of the Parties convened annually to review the strategic direction of each Service Tower.",
+      "note": "No such body in the governance structure or Escalation Levels."
+    },
+    {
+      "id": "E22",
+      "scored": true,
+      "category": "variant_or_misspelling",
+      "error_type": "Variant of defined term",
+      "location": "Schedule E ¶4.3",
+      "approx_page": 82,
+      "text": "\"The Joint Operations Committee shall meet at least monthly, ...\"",
+      "note": "Defined term is “Joint Operating Committee” / “JOC”."
+    },
+    {
+      "id": "E23",
+      "scored": true,
+      "category": "variant_or_misspelling",
+      "error_type": "Misspelled defined term",
+      "location": "Schedule F ¶3.2",
+      "approx_page": 84,
+      "text": "\"Supplier shall not remove or reassign any Key Personel during the Minimum Tenure Period...\"",
+      "note": "Should be “Key Personnel”."
+    },
+    {
+      "id": "E24",
+      "scored": true,
+      "category": "duplicate_identical",
+      "error_type": "Identical duplicate",
+      "location": "Schedule G ¶1, “Security Incident”",
+      "approx_page": 85,
+      "text": "“Security Incident” means any actual or reasonably suspected (a) unauthorised access to, or acquisition, use, disclosure, modification, loss or destruction of, Customer Data, or (b) compromise of ... any System used to Process Customer Data.",
+      "note": "Word-for-word repeat of Clause 1.1."
+    },
+    {
+      "id": "E25",
+      "scored": true,
+      "category": "lower_case_use",
+      "error_type": "Lower-case use of defined term",
+      "location": "Schedule G ¶9.2",
+      "approx_page": 87,
+      "text": "\"...within one (1) hour after becoming aware of any security incident affecting Customer Systems, ...\"",
+      "note": "Should be “Security Incident”."
+    },
+    {
+      "id": "E26",
+      "scored": true,
+      "category": "lower_case_use",
+      "error_type": "Lower-case use of defined term",
+      "location": "Schedule H ¶5.1",
+      "approx_page": 89,
+      "text": "\"...appropriate technical and organisational measures to protect customer data against unauthorised or unlawful Processing...\"",
+      "note": "Should be “Customer Data”."
+    },
+    {
+      "id": "E27",
+      "scored": true,
+      "category": "undefined_term",
+      "error_type": "Capitalized term never defined",
+      "location": "Schedule I ¶4.2",
+      "approx_page": 92,
+      "text": "\"Supplier shall maintain a Disaster Recovery Site located not less than two hundred and fifty (250) miles from the primary Data Centre, ...\"",
+      "note": "Only Disaster, Disaster Recovery Plan and Disaster Recovery Services are defined."
+    },
+    {
+      "id": "E28",
+      "scored": false,
+      "category": "cross_reference",
+      "error_type": "Pointer to wrong clause",
+      "location": "Schedule J ¶1, “Termination Assistance Period”",
+      "approx_page": 93,
+      "text": "“Termination Assistance Period” has the meaning given in Clause 27.2.",
+      "note": "Clause 27.2 is Termination Charges; the period is in Clause 28.1 (glossary correctly says so).",
+      "not_scored_reason": "out_of_scope_cross_reference"
+    },
+    {
+      "id": "E29",
+      "scored": true,
+      "category": "variant_or_misspelling",
+      "error_type": "Misspelled defined term",
+      "location": "Schedule J ¶3.1",
+      "approx_page": 94,
+      "text": "\"Supplier shall update the Exit Plann within thirty (30) days after the end of each Contract Year...\"",
+      "note": "Should be “Exit Plan”."
+    },
+    {
+      "id": "E30",
+      "scored": false,
+      "category": "quote_style",
+      "error_type": "Straight quotes",
+      "location": "Schedule K ¶1, Emergency Change",
+      "approx_page": 96,
+      "text": "\"Emergency Change\" means a Change that must be implemented urgently to prevent or resolve a Severity Level 1 Incident, a Security Incident or a breach of Applicable Law.",
+      "note": "All other definitions use curly quotes.",
+      "not_scored_reason": "out_of_scope_quote_style"
+    },
+    {
+      "id": "E31",
+      "scored": true,
+      "category": "defined_not_used",
+      "error_type": "Defined but never used",
+      "location": "Schedule L ¶1, “Representative Sample”",
+      "approx_page": 98,
+      "text": "“Representative Sample” means a sample of not fewer than three (3) comparable transactions drawn from the Comparison Group.",
+      "note": "Never used; benchmarking uses the Comparison Group."
+    }
+  ],
+  "tricky_but_correct": [
+    {
+      "id": "T1",
+      "location": "Clause 6.3(c) and throughout",
+      "item": "Plurals/possessives: Service Level Credits, Statements of Work, Local Services Agreements, Critical Deliverables, Supplier’s, Customer Group’s",
+      "why_correct": "Inflected forms of defined terms."
+    },
+    {
+      "id": "T2",
+      "location": "Clauses 2.1, 2.3, 6.1, 10.2, 10.3, 12.1, 13.1; Schedules B, C, E, K",
+      "item": "SOW / Statement of Work; ESC; JOC; LSA; KPI; ARC; RRC; Tax / Taxes",
+      "why_correct": "Both forms defined together."
+    },
+    {
+      "id": "T3",
+      "location": "Clause 6.5(a)",
+      "item": "Critical Service Level Failure / Critical Service Level / Minimum Service Level / Measurement Periods in one sentence",
+      "why_correct": "Nested defined terms, each correct."
+    },
+    {
+      "id": "T4",
+      "location": "Clause 4.5(a) (and all Part 2C pairs except E1)",
+      "item": "“Delay Payment” pointer → Clause 4.5, inline definition there",
+      "why_correct": "Pointer and definition agree."
+    },
+    {
+      "id": "T5",
+      "location": "Clause 30.1",
+      "item": "\"other natural disasters\"",
+      "why_correct": "Ordinary-language phrase, not the defined “Disaster”."
+    },
+    {
+      "id": "T6",
+      "location": "Schedule J ¶4.2",
+      "item": "\"Critical Business Function (as defined in Schedule I) ... Recovery Time Objective (as defined in Schedule I)\"",
+      "why_correct": "Cross-Schedule use with explicit attribution (contrast E9)."
+    },
+    {
+      "id": "T7",
+      "location": "Clause 8.2(b)",
+      "item": "\"Minimum Tenure Period (as defined in Schedule F)\"",
+      "why_correct": "Schedule term used in main body with attribution, permitted by Clause 1.4 (contrast E5)."
+    },
+    {
+      "id": "T8",
+      "location": "Clause 6.3(a)",
+      "item": "Pool Allocation Percentage (also Severity Level, Resource Unit, Baseline Volume, Base Charges, ARC, RRC, KPI, Benchmarker, Standard Contractual Clauses)",
+      "why_correct": "Schedule-defined but with a correct Clause 1.1 pointer."
+    },
+    {
+      "id": "T9",
+      "location": "Clause 1.2(f); “Personal Data” entry",
+      "item": "“include”, “including”, “without limitation”; “personal data”, “personal information”, “nonpublic personal information”",
+      "why_correct": "Quoted words, not definitions; statutory quotation."
+    },
+    {
+      "id": "T10",
+      "location": "Clause headings; Clauses 22.3 and 29.5",
+      "item": "ALL-CAPS disclaimer and jury waiver containing SERVICES, DELIVERABLES, DISPUTE",
+      "why_correct": "Conspicuousness requirement; defined terms still correct."
+    },
+    {
+      "id": "T11",
+      "location": "Clause 28.1; Clause 20; Clauses 5.7/15.2",
+      "item": "Termination Assistance Services vs Termination Assistance Period vs Termination Date vs Termination Notice; Supplier Materials vs Supplier Proprietary Software; Customer Facilities vs Supplier Facilities",
+      "why_correct": "Distinct defined terms used in their own senses."
+    },
+    {
+      "id": "T12",
+      "location": "Clause 12.1(c); Schedule C ¶11",
+      "item": "\"Benchmark Adjustment (as defined in Clause 14.2)\"; \"Innovation Fund (as defined in Clause 12.1(d))\"",
+      "why_correct": "Inline-only terms used elsewhere with explicit cross-reference (contrast E4)."
+    }
+  ]
+}

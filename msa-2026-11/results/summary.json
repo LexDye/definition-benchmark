@@ -1,0 +1,67 @@
+{
+  "benchmark": "msa-2026-11",
+  "scored_on": "2026-11-19",
+  "scope": "definitions only",
+  "results": [
+    {
+      "run": "chat_ai_alone",
+      "reviewer": "A leading chat AI, working alone",
+      "prompt": "A defined-terms audit of the agreement (see prompt file).",
+      "lexdye_report_given": false,
+      "run_date": "2026-11-12",
+      "found": 15,
+      "out_of": 25,
+      "false_undefined_claims": 5
+    },
+    {
+      "run": "agent_review_before_signing",
+      "reviewer": "AI agent, working alone",
+      "prompt": "Review myAgreement.docx before signing and flag any issues.",
+      "lexdye_report_given": false,
+      "run_date": "2026-11-19",
+      "found": 18,
+      "out_of": 25,
+      "false_undefined_claims": 0
+    },
+    {
+      "run": "agent_check_defined_terms",
+      "reviewer": "AI agent, working alone",
+      "prompt": "Check the defined terms in myAgreement.docx.",
+      "lexdye_report_given": false,
+      "run_date": "2026-11-19",
+      "found": 19,
+      "out_of": 25,
+      "false_undefined_claims": 0
+    },
+    {
+      "run": "agent_detailed_prompt",
+      "reviewer": "AI agent, working alone",
+      "prompt": "A detailed prompt listing every check LexDye runs (see prompt file).",
+      "lexdye_report_given": false,
+      "run_date": "2026-11-19",
+      "found": 25,
+      "out_of": 25,
+      "false_undefined_claims": 0
+    },
+    {
+      "run": "lexdye_alone",
+      "reviewer": "LexDye Definition Tracker alone",
+      "prompt": "None. LexDye runs the same checks every time.",
+      "lexdye_report_given": null,
+      "run_date": "2026-11",
+      "found": 25,
+      "out_of": 25,
+      "false_undefined_claims": 0
+    },
+    {
+      "run": "ai_with_lexdye_report",
+      "reviewer": "Chat AI or AI agent with LexDye's report",
+      "prompt": "The instructions included in LexDye's report.",
+      "lexdye_report_given": true,
+      "run_date": "2026-11",
+      "found": 25,
+      "out_of": 25,
+      "false_undefined_claims": 0
+    }
+  ]
+}

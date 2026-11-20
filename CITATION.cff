@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this benchmark, please cite it as below."
+title: "LexDye Defined-Terms Benchmark: 121-Page MSA (November 2026)"
+abstract: "A fictional 121-page master services agreement with 25 planted defined-term errors, a machine-readable answer key, and scored results for a chat AI, an AI agent with three different prompts, the LexDye Definition Tracker, and AI with LexDye's report."
+authors:
+  - name: "LexDye, Inc."
+type: dataset
+version: "1.0"
+date-released: "2026-11-20"
+license: CC-BY-4.0
+url: "https://www.lexdye.com/blog/defined-terms-benchmark-msa-2026-11"
+repository-code: "https://github.com/LexDye/definition-benchmark"
+keywords:
+  - legal-ai
+  - llm-evaluation
+  - benchmark
+  - contracts
+  - agents
+  - defined-terms
+  - contract-review

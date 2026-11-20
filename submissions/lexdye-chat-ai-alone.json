@@ -1,0 +1,31 @@
+{
+  "benchmark": "msa-2026-11",
+  "reviewer": "A leading chat AI, working alone",
+  "harness": "chat",
+  "model": "Not named (a leading general-purpose chat AI)",
+  "prompt": "A defined-terms audit of the agreement (see prompt file).",
+  "prompt_file": "msa-2026-11/prompts/chat-ai-defined-terms-audit.md",
+  "lexdye_report_given": false,
+  "run_date": "2026-11-12",
+  "found": [
+    "E3",
+    "E5",
+    "E9",
+    "E10",
+    "E13",
+    "E15",
+    "E16",
+    "E17",
+    "E19",
+    "E20",
+    "E21",
+    "E24",
+    "E25",
+    "E26",
+    "E31"
+  ],
+  "flagged_correct_items": [],
+  "false_undefined_claims": 5,
+  "notes": "Worked as a chat assistant, without running its own scripts. Reported five properly defined terms as undefined (all are in the Schedule A definitions) and rated two of them High risk. Noticed E4 (Innovation Fund) and then dismissed it.",
+  "submitted_by": "LexDye, Inc."
+}

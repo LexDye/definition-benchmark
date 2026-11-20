@@ -1,0 +1,17 @@
+{
+  "benchmark": "msa-2026-11",
+  "reviewer": "Your model or tool, as you want it shown",
+  "harness": "chat | agent | tool",
+  "model": "exact model name and version",
+  "prompt": "the exact prompt you used",
+  "lexdye_report_given": false,
+  "run_date": "YYYY-MM-DD",
+  "found": [
+    "E3",
+    "E5"
+  ],
+  "flagged_correct_items": [],
+  "false_undefined_claims": 0,
+  "notes": "anything a reader needs to reproduce the run",
+  "submitted_by": "your name or handle"
+}
