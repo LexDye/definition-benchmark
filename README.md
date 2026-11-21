@@ -2,6 +2,8 @@
 
 **An open benchmark for AI contract review: a 121-page agreement, 25 planted defined-term errors, and a machine-readable answer key. Run your own model and score it in one command.**
 
+Also on Hugging Face: [LexDye/definition-benchmark](https://huggingface.co/datasets/LexDye/definition-benchmark) (load the answer key and results with the `datasets` library).
+
 ![Benchmark](https://img.shields.io/badge/benchmark-defined%20terms-9E2B2A) ![Planted errors](https://img.shields.io/badge/planted%20errors-25%20scored-161616) ![Answer key](https://img.shields.io/badge/answer%20key-JSON%20%7C%20CSV-5d5a54) ![License](https://img.shields.io/badge/data-CC%20BY%204.0-lightgrey)
 
 ![Defined-term errors found, out of 25: chat AI alone 15, AI agent "review before signing" 18, AI agent "check the defined terms" 19, AI agent with a detailed prompt 25, LexDye alone 25, any AI with LexDye's report 25](assets/results.svg)
@@ -122,4 +124,4 @@ The agreement is entirely fictional. Any resemblance to real companies or people
 
 ## Citation
 
-LexDye, Inc., *LexDye Defined-Terms Benchmark: 121-Page MSA (November 2026)*, https://github.com/LexDye/definition-benchmark. See [`CITATION.cff`](CITATION.cff), or use GitHub's "Cite this repository" button.
+LexDye, Inc., *LexDye Defined-Terms Benchmark: 121-Page MSA (November 2026)*, https://github.com/LexDye/definition-benchmark (also at https://huggingface.co/datasets/LexDye/definition-benchmark). See [`CITATION.cff`](CITATION.cff), or use GitHub's "Cite this repository" button.
